@@ -1,0 +1,2 @@
+class RecommendationProductsController < ApplicationController
+end

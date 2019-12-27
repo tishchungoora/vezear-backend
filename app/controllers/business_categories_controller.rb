@@ -1,0 +1,2 @@
+class BusinessCategoriesController < ApplicationController
+end
