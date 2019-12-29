@@ -9,7 +9,7 @@ class ProductSerializer
             include: {
                 product_category: { only: :name }
             },
-            except: [:id, :product_category_id, :created_at, :updated_at]
+            except: [:product_category_id, :created_at, :updated_at]
         }
         
         @product.to_json(options)

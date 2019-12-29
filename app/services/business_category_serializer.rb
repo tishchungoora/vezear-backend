@@ -6,7 +6,7 @@ class BusinessCategorySerializer
 
     def to_serialized_json()
         options = {
-            except: [:id, :created_at, :updated_at]
+            except: [:created_at, :updated_at]
         }
         
         @business_category.to_json(options)
