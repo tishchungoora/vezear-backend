@@ -42,3 +42,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Use Ancestry gem to allow records to be organised as a tree structure
 gem 'ancestry'
+
+# Use Active Model Serializer
+gem 'active_model_serializers'

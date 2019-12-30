@@ -2,12 +2,12 @@ class ProductsController < ApplicationController
 
     def index
         products = Product.all
-        render json: ProductSerializer.new(products).to_serialized_json
+        render json: products
     end
 
     def show
         product = Product.find(params[:id])
-        render json: ProductSerializer.new(product).to_serialized_json
+        render json: product
     end
     
 end
